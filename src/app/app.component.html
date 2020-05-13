@@ -1,10 +1,17 @@
-<div id="container">
+<div class="center" id="container">
 <h2>
-  Angular Testing
+  Suma de Numeros:
 </h2>
-<span>Número 1:</span><input #num1 id="num1" type="number">
-<span>Número 2:</span><input #num2 id="num2" type="number">
-<br><br><br>
-<button (click)="printadd(num1.value,num2.value)" id="button">Suamar</button>
-Resultado: <input #result  id="result" type="text"/>
+<span>Número 1: </span>
+<input #num1 id="num1" type="number">
+<br>
+<br>
+<span>Número 2: </span>
+<input #num2 id="num2" type="number">
+<br>
+<br>
+<button (click)="printadd(num1.value,num2.value)" id="button">Sumar</button>
+<br>
+<br>
+<span>Resultado: </span><input #result  id="result" type="text"/>
 </div>
