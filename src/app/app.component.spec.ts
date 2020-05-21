@@ -18,13 +18,11 @@ describe('AppComponent', () => {
     .createComponent(AppComponent);
   }));
 
-  it('La suma debe ser igual a 4',async(()=>{
+  it('La suma debe ser igual a 4',async(()=> {
     (<HTMLInputElement>document.getElementById('num1')).value = '2';
     (<HTMLInputElement>document.getElementById('num2')).value = '2';
-    document.getElementById('button').click();
+     document.getElementById('button').click();
     expect((<HTMLInputElement>document.getElementById('result')).value).toBe('4');
-
-
   }));
 
 })
